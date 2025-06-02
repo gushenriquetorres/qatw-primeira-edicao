@@ -1,0 +1,17 @@
+{
+  "name": "qatw-primeira-edicao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gushenriquetorres/qatw-primeira-edicao.git",
+  "author": "Gustavo Henrique <gustavohenrique@pactosolucoes.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "debug": "playwright test --debug",
+    "ui": "playwright test --ui"
+  }
+}
