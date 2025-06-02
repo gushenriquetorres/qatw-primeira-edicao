@@ -13,5 +13,8 @@
     "test": "playwright test",
     "debug": "playwright test --debug",
     "ui": "playwright test --ui"
+  },
+  "dependencies": {
+    "pg-promise": "^11.13.0"
   }
 }
